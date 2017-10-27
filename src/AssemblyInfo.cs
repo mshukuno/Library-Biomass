@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 
 [assembly: AssemblyTitle("Biomass-Library")]
-[assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.1")]
 [assembly: AssemblyDescription("Biomass Library for LANDIS-II")]
 
 #if DEBUG
