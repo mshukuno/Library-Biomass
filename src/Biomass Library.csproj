@@ -1,24 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <RootNamespace>Landis.Library.Biomass</RootNamespace>
-    <AssemblyName>Landis.Library.Biomass-v1.0.1</AssemblyName>
-    <AssemblyTitle>Biomass-Library</AssemblyTitle>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <AssemblyName>Landis.Library.Biomass-v2</AssemblyName>
+    <AssemblyTitle>Landis.Library.Biomass-v2</AssemblyTitle>
+    <AssemblyCompany>LANDIS-II Foundation</AssemblyCompany>
+    <AssemblyProduct>Landis.Library.Biomass-v2</AssemblyProduct>
+    <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
+    <AssemblyVersion>2.0</AssemblyVersion>
     <AssemblyDescription>Biomass Library for LANDIS-II</AssemblyDescription>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Library-Biomass/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://sites.google.com/site/landismodel/home</PackageProjectUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Library-Biomass</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PackageTags>LANDIS-II;Landis;Library;Biomass</PackageTags>
+    <RepositoryType>git</RepositoryType>    
+    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Library-Biomass/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>http://www.landis-ii.org</PackageProjectUrl>
     <NeutralLanguage>English</NeutralLanguage>
+    <Authors>LANDIS-II Foundation</Authors>
+    <Product>Biomass-Library</Product>    
+    <Copyright>LANDIS-II Foundation</Copyright>    
+    <PackageTags>LANDIS-II;Landis;Library;Biomass</PackageTags>
+    <Version>2.0</Version>
     <Description>Biomass Library for LANDIS-II</Description>
-    <Product>Biomass-Library</Product>
+    <PackageReleaseNotes>.NET Standard 2.0 update.</PackageReleaseNotes>
+    <FileVersion>7.0</FileVersion>
   </PropertyGroup>
+  
   <ItemGroup>
-    <PackageReference Include="Landis.Core" Version="1.0.0" />
-    <PackageReference Include="Landis.SpatialModeling" Version="1.0.0" />
-    <PackageReference Include="Landis.Utilities" Version="1.0.0" />
+    <PackageReference Include="Landis.Core" Version="2.0.0" />
   </ItemGroup>
 </Project>
